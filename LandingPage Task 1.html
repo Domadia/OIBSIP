@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Website</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .navbar {
+      background-color: #333;
+      color: #fff;
+      height: 50px;
+    }
+    
+    .navbar ul {
+      height: 45px;
+      margin: 0;
+      padding:0;
+      list-style: none;
+      text-align: center;
+    }
+    
+    .navbar ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .navbar ul li:hover {
+     
+    }
+    
+    .navbar ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    
+    .hero {
+      background-image: url('/Users/tejdomadia/Downloads/background.jpeg');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    
+    .hero p {
+      font-size: 24px;
+      margin-bottom: 40px;
+      color: #fff;
+    }
+    
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+      margin-right: 10px;
+      border-radius: 5px;
+    }
+    
+    .login-signup {
+      background-color: #f2f2f2;
+      padding: 50px;
+      text-align: center;
+    }
+    
+    .login-signup h2 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+    
+    .login-signup form {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    
+    .login-signup input[type="email"],
+    .login-signup input[type="password"] {
+      padding: 10px;
+      width: 300px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-right: 10px;
+    }
+    
+    .login-signup input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+    }
+    
+    .feature {
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      margin-bottom: 50px;
+    }
+    
+    .feature img {
+      max-width: 200px;
+      margin-right: 20px;
+      border-radius: 5px;
+    }
+    
+    .feature-text {
+      text-align: left;
+    }
+    
+    .feature h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .feature p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Destinations</a></li>
+      <li><a href="#">Packages</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </div>
+  
+  <div class="hero">
+    <h1>Welcome to our Travel Website</h1>
+    <p>Explore the world with us</p>
+    <div class="cta-buttons">
+      <a href="#" class="cta-button">Get Started</a>
+      <a href="#" class="cta-button">Learn More</a>
+    </div>
+  </div>
+  
+  <div class="login-signup">
+    <h2>Login or Sign up</h2>
+    <form>
+      <input type="email" placeholder="Username/Email">
+      <input type="password" placeholder="Password">
+      <input type="submit" value="Login">
+    </form>
+  </div>
+  
+  <div class="feature-container" style="padding:30px;margin-left:20%">
+  <div class="feature">
+    <img src="/Users/tejdomadia/Downloads/bali.jpeg" >
+    <div class="feature-text">
+      <h3>Discover New Destinations</h3>
+      <p>Experience the beauty of exotic locations around the world.</p>
+    </div>
+  </div>
+  
+  <div class="feature">
+    <img src="/Users/tejdomadia/Downloads/dubai.jpeg" >
+    <div class="feature-text">
+      <h3>Book Amazing Packages</h3>
+      <p>Choose from a wide range of travel packages tailored to your preferences.</p>
+    </div>
+  </div>
+  
+  <div class="feature">
+    <img src="/Users/tejdomadia/Downloads/singapore.jpeg" >
+    <div class="feature-text">
+      <h3>Expert Guides</h3>
+      <p>Explore the world with knowledgeable and friendly guides.</p>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
